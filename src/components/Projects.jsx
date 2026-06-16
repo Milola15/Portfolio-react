@@ -9,7 +9,7 @@ function Projects() {
       title: "Portfolio Personnel",
       description:
         "Portfolio réalisé avec React pour présenter mes compétences et projets.",
-        github: "https://github.com/tonPseudo/portfolio-react",
+        github: "https://github.com/Milola15/Portfolio-react",
       image:
         "capfort.png"
     },
