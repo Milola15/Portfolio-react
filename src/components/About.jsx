@@ -5,8 +5,7 @@ import {
   FaGraduationCap,
   FaCode,
   FaHeart,
-  FaChevronDown,
-  FaChevronUp
+  FaChevronDown
 } from "react-icons/fa";
 
 function About() {
@@ -30,15 +29,15 @@ function About() {
       year: "2024-2025",
       title: "Admissibilité au BTS en informatique développeur d'application à Pigier Côte d'ivoire",
       description:
-        "j'ai effectué un stage de validation pour obtenir mon diplôme."
+        "j'ai effectué un stage de validation a la SOTRA pour obtenir mon diplôme."
     },
     {
       year: "2025-2026",
-      title: "Licence 3 en Réseau Génie Logiciel à Pigier Côte d'ivoire (en du cours)",
+      title: "Licence 3 en Réseau Génie Logiciel à Pigier Côte d'ivoire (en cours)",
       description:
         "Approfondissement en réseau et en développement web et mobile."
     }
-    
+
   ];
 
   return (
@@ -64,10 +63,12 @@ function About() {
           <div className="about-line"></div>
 
           <p>
-            Je suis une développeuse web junior passionnée par la
-            création de sites web modernes et efficaces.
-            J'apprends chaque jour et je m'améliore constamment
-            pour devenir une meilleure développeuse.
+            Je suis développeuse web junior spécialisée en React, PHP
+et MySQL, avec une vraie rigueur dans la qualité du code
+et le souci du détail côté design.
+Au fil de ma formation à Pigier, j'ai appris à transformer
+des besoins concrets en solutions web claires et accessibles.
+Ce portfolio en est la preuve directe.
           </p>
 
           <div className="qualite">
@@ -79,7 +80,7 @@ function About() {
 
               <div>
                 <h3>Apprenante</h3>
-                <p>Toujours curieuse et motivée.</p>
+                <p>Je monte en compétences rapidement et de manière autonome.</p>
               </div>
             </div>
 
@@ -90,7 +91,7 @@ function About() {
 
               <div>
                 <h3>Développeuse</h3>
-                <p>J'aime coder des solutions utiles.</p>
+                <p> Je code des solutions propres, maintenables et orientées utilisateur.</p>
               </div>
             </div>
 
@@ -101,7 +102,7 @@ function About() {
 
               <div>
                 <h3>Passionnée</h3>
-                <p>Le code est plus qu'une passion.</p>
+                <p>Le développement web est à la fois ma formation et ma pratique quotidienne.</p>
               </div>
             </div>
 
@@ -121,15 +122,22 @@ function About() {
       >
 
         <h2>Mon Parcours Universitaire</h2>
+        <div className="about-line section-line"></div>
 
         <div className="education-list">
 
           {parcours.map((item, index) => (
 
-            <div
+            <motion.div
               className="education-card"
               key={index}
+              initial={{ opacity: 0, x: -40 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.5, delay: index * 0.15 }}
             >
+
+              <span className="timeline-dot"></span>
 
               <button
                 className="education-header"
@@ -150,10 +158,12 @@ function About() {
                   <h3>{item.title}</h3>
                 </div>
 
-                {openIndex === index
-                  ? <FaChevronUp />
-                  : <FaChevronDown />
-                }
+                <motion.span
+                  animate={{ rotate: openIndex === index ? 180 : 0 }}
+                  transition={{ duration: 0.3 }}
+                >
+                  <FaChevronDown />
+                </motion.span>
 
               </button>
 
@@ -190,7 +200,7 @@ function About() {
 
               </AnimatePresence>
 
-            </div>
+            </motion.div>
 
           ))}
 

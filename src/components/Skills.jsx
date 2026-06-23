@@ -3,6 +3,7 @@ import {
   FaCss3Alt,
   FaJs,
   FaReact,
+  FaJava,
   FaPhp
 } from "react-icons/fa";
 
@@ -15,6 +16,7 @@ function Skills() {
     { icon: <FaCss3Alt />, name: "CSS" },
     { icon: <FaJs />, name: "JavaScript" },
     { icon: <FaReact />, name: "React" },
+    {icon: <FaJava />, name: "Java"},
     { icon: <FaPhp />, name: "PHP" },
     { icon: <SiMysql />, name: "MySQL" },
   ];

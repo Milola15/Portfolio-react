@@ -52,17 +52,16 @@ function Contact() {
     setLoading(true);
     setStatus({ type: "", message: "" });
 
-    emailjs
-      .send(
-        "service_zel1xni",
-        "template_ewow9hm",
-        {
-          from_name: formData.name,
-          from_email: formData.email,
-          message: formData.message
-        },
-        "K_wzZdAD3ic9M3HPo"
-      )
+    emailjs.send(
+    import.meta.env.VITE_EMAILJS_SERVICE_ID,
+    import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+    {
+      name: formData.name,
+      email: formData.email,
+      message: formData.message
+    },
+    import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+    )
       .then(() => {
         setStatus({ type: "success", message: "Message envoyé avec succès !" });
         setFormData({ name: "", email: "", message: "" });

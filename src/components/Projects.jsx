@@ -8,7 +8,7 @@ function Projects() {
     {
       title: "Portfolio Personnel",
       description:
-        "Portfolio réalisé avec React pour présenter mes compétences et projets.",
+        "Conception et déploiement d'un portfolio single-page avec React, animations Framer Motion, formulaire EmailJS sécurisé et design responsive réalisé de A à Z.",
         github: "https://github.com/Milola15/Portfolio-react",
       image:
         "capfort.png"
@@ -17,7 +17,7 @@ function Projects() {
     {
       title: "Tableau de Bord",
       description:
-        "Application de gestion d'un établisseemnt scoliaire.",
+        "Application web de gestion d'inscription pour un établissement scolaire : interface intuitive, base de données MySQL et logique PHP côté serveur",
         github: "https://github.com/Milola15/Application-d-inscription-scolaire",
       image:
         "dashboard.png"
@@ -26,7 +26,7 @@ function Projects() {
     {
       title: "Site Vitrine",
       description:
-        "Reéalisation d'un site moderne en react",
+        "Landing page moderne développée en React avec une attention particulière portée à l'UX, la performance et le responsive design.",
         github: "https://github.com/Milola15/interface-moderne",
       image:
         "caplanding.png"

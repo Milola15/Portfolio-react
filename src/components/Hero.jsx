@@ -41,20 +41,21 @@ function Hero() {
         <h1>
           Eunice OGUNEMI
         </h1>
-        <h3>Développeuse Web Junior</h3>
+        <h3>Développeuse Web Full-Stack Junior</h3>
 
         <div className="hero-line"></div>
         <p className="hero-description">
-          Passionnée par le développement web,
-          j'aime créer des sites et applications
-          modernes et responsives.
+          Étudiante en Licence 3 à Pigier Côte d'Ivoire en cours du soir, je conçois
+          des interfaces modernes et des applications web fonctionnelles.
+          Disponible pour un stage ou un premier emploi — prête à
+          contribuer dès maintenant.
         </p>
         <br />
         <div className="hero-buttons">
         <a href="#projects" className="hero-btn">
           Voir mes projets
         </a>
-        <a href="CV-OGUNEMI-EUNICE.pdf" className="hero-btn" download>
+        <a href="CV_OGUNEMI_EUNICE.pdf" className="hero-btn" download>
           Télécharger mon CV
         </a>
         </div>
@@ -67,7 +68,7 @@ function Hero() {
       >
         <div className="photo-glow"></div>
         <img
-          src="images.jpg"
+          src="img2.png"
           alt="Eunice Ogunemi"
         />
       </motion.div>
