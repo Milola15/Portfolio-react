@@ -7,7 +7,7 @@ import {
   FaPhp
 } from "react-icons/fa";
 
-import { SiMysql } from "react-icons/si";
+import { SiMysql, SiC } from "react-icons/si";
 
 function Skills() {
 
@@ -16,9 +16,10 @@ function Skills() {
     { icon: <FaCss3Alt />, name: "CSS" },
     { icon: <FaJs />, name: "JavaScript" },
     { icon: <FaReact />, name: "React" },
-    {icon: <FaJava />, name: "Java"},
+    { icon: <FaJava />, name: "Java" },
     { icon: <FaPhp />, name: "PHP" },
     { icon: <SiMysql />, name: "MySQL" },
+    { icon: <SiC />, name: "C" },
   ];
 
   return (

@@ -11,7 +11,7 @@ function Projects() {
         "Conception et déploiement d'un portfolio single-page avec React, animations Framer Motion, formulaire EmailJS sécurisé et design responsive réalisé de A à Z.",
         github: "https://github.com/Milola15/Portfolio-react",
       image:
-        "capfort.png"
+        "CapPort.png"
     },
 
     {
@@ -24,6 +24,15 @@ function Projects() {
     },
 
     {
+      title: "Site de E-cormmerce",
+      description:
+        "Site de e-cormnerce moderne et responsive realisé avec Next-js ,React-js et Prisma. Avec fonctionnalité d'ajout au panier et validation de commande via whatsapp",
+        github: "https://github.com/Milola15/Milola-wigs",
+      image:
+        "Wigs.png"
+    },
+
+    {
       title: "Site Vitrine",
       description:
         "Landing page moderne développée en React avec une attention particulière portée à l'UX, la performance et le responsive design.",
@@ -31,6 +40,7 @@ function Projects() {
       image:
         "caplanding.png"
     }
+
   ];
 
   return (
