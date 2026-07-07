@@ -19,7 +19,7 @@ function Skills() {
     { icon: <FaJava />, name: "Java" },
     { icon: <FaPhp />, name: "PHP" },
     { icon: <SiMysql />, name: "MySQL" },
-    { icon: <SiC />, name: "C" },
+    { icon: <SiC />, name: "Langage C" },
   ];
 
   return (
