@@ -7,19 +7,22 @@ import {
   FaPhp
 } from "react-icons/fa";
 
-import { SiMysql, SiC } from "react-icons/si";
+import { SiMysql, SiC, SiKotlin, SiNextdotjs, SiTailwindcss } from "react-icons/si";
 
 function Skills() {
 
   const skills = [
     { icon: <FaHtml5 />, name: "HTML" },
     { icon: <FaCss3Alt />, name: "CSS" },
+    { icon: <SiTailwindcss />, name: "Tailwind CSS" },
     { icon: <FaJs />, name: "JavaScript" },
     { icon: <FaReact />, name: "React" },
+    { icon: <SiNextdotjs />, name: "Next.js" },
     { icon: <FaJava />, name: "Java" },
     { icon: <FaPhp />, name: "PHP" },
     { icon: <SiMysql />, name: "MySQL" },
     { icon: <SiC />, name: "Langage C" },
+    { icon: <SiKotlin />, name: "Kotlin" }
   ];
 
   return (

@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import {
  FaGithub,
- FaLinkedin
 } from "react-icons/fa";
 function Projects() {
   const projects = [
@@ -30,6 +29,14 @@ function Projects() {
         github: "https://github.com/Milola15/Milola-wigs",
       image:
         "Wigs.png"
+    },
+    {
+      title: "Application web fullstack de sondage et de vote",
+      description:
+        "Application web fullstack de sondage et de vote développée dans le cadre du Challenge 13 — ITF Girls Dev. Les utilisateurs peuvent créer un compte, participer aux sondages et consulter les résultats sous forme de pourcentages et de barres de progression. Le projet intègre une authentification sécurisée par token JWT, une API REST complète avec 8 routes et un dashboard administrateur pour gérer les sondages. Stack technique : React · Tailwind CSS · Express.js · Node.js · MySQL · JWT · Axios · REST API",
+        github: "https://github.com/Milola15/Application-Sondage",
+      image:
+        "cap-challenge.png"
     },
 
     {

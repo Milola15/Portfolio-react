@@ -14,10 +14,10 @@ function About() {
 
   const parcours = [
     {
-      year: "2023-2024",
-      title: "Licence 1 en Réseau Génie Logiciel à Pigier Côte d'ivoire",
+      year: "2025-2026",
+      title: "Licence 3 en Réseau Génie Logiciel à Pigier Côte d'ivoire (en cours)",
       description:
-        "Début de mon parcours universitaire et découverte de l'informatique j'ai appris les bases en programmation."
+        "Approfondissement en réseau et en développement web et mobile."
     },
     {
       year: "2024-2025",
@@ -25,19 +25,20 @@ function About() {
       description:
         "Apprentissage des bases HTML, CSS et création de mes premiers sites."
     },
-    {
+     {
       year: "2024-2025",
       title: "Admissibilité au BTS en informatique développeur d'application à Pigier Côte d'ivoire",
       description:
         "j'ai effectué un stage de validation a la SOTRA pour obtenir mon diplôme."
     },
     {
-      year: "2025-2026",
-      title: "Licence 3 en Réseau Génie Logiciel à Pigier Côte d'ivoire (en cours)",
+      year: "2023-2024",
+      title: "Licence 1 en Réseau Génie Logiciel à Pigier Côte d'ivoire",
       description:
-        "Approfondissement en réseau et en développement web et mobile."
-    }
-
+        "Début de mon parcours universitaire et découverte de l'informatique j'ai appris les bases en programmation."
+    },
+    
+   
   ];
 
   return (
