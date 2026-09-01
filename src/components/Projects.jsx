@@ -33,7 +33,7 @@ function Projects() {
     {
       title: "Application web fullstack de sondage et de vote",
       description:
-        "Application web fullstack de sondage et de vote développée dans le cadre du Challenge 13 — ITF Girls Dev. Les utilisateurs peuvent créer un compte, participer aux sondages et consulter les résultats sous forme de pourcentages et de barres de progression. Le projet intègre une authentification sécurisée par token JWT, une API REST complète avec 8 routes et un dashboard administrateur pour gérer les sondages. Stack technique : React · Tailwind CSS · Express.js · Node.js · MySQL · JWT · Axios · REST API",
+      " Les utilisateurs peuvent créer un compte, participer aux sondages et consulter les résultats sous forme de pourcentages et de barres de progression. Stack technique : React, Tailwind CSS ,Express.js ,MySQL ,REST API",
         github: "https://github.com/Milola15/Application-Sondage",
       image:
         "cap-challenge.png"

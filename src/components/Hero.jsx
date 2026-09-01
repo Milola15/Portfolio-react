@@ -47,7 +47,7 @@ function Hero() {
         <p className="hero-description">
           Étudiante en Licence 3 à Pigier Côte d'Ivoire en cours du soir, je conçois
           des interfaces modernes et des applications web fonctionnelles.
-          Disponible pour un stage ou un premier emploi — prête à
+          Disponible pour un stage ou un premier emploi prête à
           contribuer dès maintenant.
         </p>
         <br />
@@ -55,7 +55,7 @@ function Hero() {
         <a href="#projects" className="hero-btn">
           Voir mes projets
         </a>
-        <a href="CV_OGUNEMI_EUNICE.pdf" className="hero-btn" download>
+        <a href="CV-OGUNEMI-EUNICE.pdf" className="hero-btn" download>
           Télécharger mon CV
         </a>
         </div>
