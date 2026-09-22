@@ -55,7 +55,7 @@ function Hero() {
         <a href="#projects" className="hero-btn">
           Voir mes projets
         </a>
-        <a href="CV-OGUNEMI-EUNICE.pdf" className="hero-btn" download>
+        <a href="CV_OGUNEMI_EUNICE.pdf" className="hero-btn" download>
           Télécharger mon CV
         </a>
         </div>
