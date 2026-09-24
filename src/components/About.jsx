@@ -64,12 +64,12 @@ function About() {
           <div className="about-line"></div>
 
           <p>
-            Je suis développeuse web junior spécialisée en React, PHP
-et MySQL, avec une vraie rigueur dans la qualité du code
-et le souci du détail côté design.
-Au fil de ma formation à Pigier, j'ai appris à transformer
-des besoins concrets en solutions web claires et accessibles.
-Ce portfolio en est la preuve directe.
+           Développeuse Web & Mobile passionnée, spécialisée dans les technologies modernes
+            (React, Next.js, PHP, MySQL, Kotlin). Rigoureuse et attentive à l'esthétique,
+             j'accorde une importance essentielle à la propreté du code et à la fluidité des interfaces.
+              Grâce à ma formation à Pigier Côte d'Ivoire et à mes projets d'ingénierie logicielle, 
+              je transforme des besoins complexes en applications web et mobiles performantes, claires et accessibles.
+               Découvrez à travers ce portfolio mes réalisations et mon savoir-faire.
           </p>
 
           <div className="qualite">

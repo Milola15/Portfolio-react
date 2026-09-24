@@ -10,7 +10,7 @@ function Projects() {
         "Conception et déploiement d'un portfolio single-page avec React, animations Framer Motion, formulaire EmailJS sécurisé et design responsive réalisé de A à Z.",
         github: "https://github.com/Milola15/Portfolio-react",
       image:
-        "CapPort.png"
+        "Caportfolio.png"
     },
 
     {
@@ -41,8 +41,7 @@ function Projects() {
 
     {
       title: "Site Vitrine",
-      description:
-        "Landing page moderne développée en React avec une attention particulière portée à l'UX, la performance et le responsive design.",
+      description: "Landing page moderne développée en React avec une attention particulière portée à l'UX, la performance et le responsive design.",
         github: "https://github.com/Milola15/interface-moderne",
       image:
         "caplanding.png"
